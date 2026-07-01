@@ -1,0 +1,3 @@
+*:focus { outline: none; }
+html, body, #root { min-height: 100%; margin: 0; font-family: Inter, sans-serif; background: #F3F4F6; color: #111827; }
+button { cursor: pointer; }

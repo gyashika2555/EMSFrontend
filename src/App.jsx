@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/employees';
+const API_URL = import.meta.env.VITE_API_URL || 'https://ems-backend-ti0r.onrender.com';
 
 function getInitials(name = '') {
   return name

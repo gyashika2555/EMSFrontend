@@ -156,7 +156,7 @@ function EmployeesPage({ employees, loading, filtered, onDelete, onEdit, stats, 
             </div>
             <div className="card-body">
               <div>Salary: {formatSalary(emp.salary)}</div>
-              <div>ID: {emp.id}</div>
+              
             </div>
             <div className="card-actions">
               <button onClick={() => onEdit(emp)}>Edit</button>
